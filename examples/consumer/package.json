@@ -1,0 +1,11 @@
+{
+  "name": "atproto-client-consumer-example",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "dependencies": {
+    "@loftet/atproto-client": "file:../../artifacts/loftet-atproto-client-0.1.0.tgz"
+  }
+}

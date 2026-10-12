@@ -1,0 +1,37 @@
+{
+  "name": "@loftet/atproto-client",
+  "version": "0.1.0",
+  "description": "Server-side AT Protocol Spaces client extracted from loftet-social",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.17 <25"
+  },
+  "packageManager": "pnpm@11.8.0",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "PROVENANCE.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.check.json",
+    "test": "node --test test/*.test.ts",
+    "check": "pnpm typecheck && pnpm build && pnpm test",
+    "prepack": "pnpm build"
+  },
+  "dependencies": {
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.1",
+    "typescript": "6.0.3"
+  }
+}
