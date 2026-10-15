@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Server-side AT Protocol Spaces client extracted from loftet-social",
   "private": true,
+  "license": "MIT",
   "type": "module",
   "engines": {
     "node": ">=24.17 <25"

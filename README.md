@@ -125,10 +125,14 @@ all results. Do not assume one page represents a complete group or membership li
 - This is the Spaces alpha contract from the source demo, not a general client
   for every AT Protocol server. See [PROVENANCE.md](PROVENANCE.md) for exact pins.
   Federation, encryption, production hardening and social UI are outside this
-  initial extraction. License/public release decisions are still pending.
+  initial extraction.
 
 ## Next steps
 
 - [LOFT-99](https://devotta.atlassian.net/browse/LOFT-99): review and finalize the extracted API.
 - [LOFT-100](https://devotta.atlassian.net/browse/LOFT-100): integrate the package into loftet-social and run its existing checks.
 - [LOFT-101](https://devotta.atlassian.net/browse/LOFT-101): complete live-PDS access/revocation checks and reuse documentation.
+
+## License
+
+Licensed under [MIT](LICENSE).
