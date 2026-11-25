@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { createAtprotoClient } from "@loftet/atproto-client";
+import { createAtprotoClient } from "atproto-client";
 
 // Deterministic package smoke test, not a live PDS or security integration test.
 const did = "did:plc:aaaaaaaaaaaaaaaaaaaaaaaa";
