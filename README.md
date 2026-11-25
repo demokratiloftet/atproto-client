@@ -21,21 +21,21 @@ pnpm check
 pnpm pack --pack-destination artifacts
 ```
 
-Install the resulting `artifacts/loftet-atproto-client-0.1.0.tgz` into another
+Install the resulting `artifacts/atproto-client-0.1.0.tgz` into another
 project using its package manager. No sibling checkout is needed at runtime.
 
 The independent example installs that tarball rather than importing source:
 
 ```sh
 cd examples/consumer
-npm install --ignore-scripts --no-package-lock ../../artifacts/loftet-atproto-client-0.1.0.tgz
+npm install --ignore-scripts --no-package-lock ../../artifacts/atproto-client-0.1.0.tgz
 npm start
 ```
 
 ## Read private records
 
 ```ts
-import { createAtprotoClient, type Session } from "@loftet/atproto-client";
+import { createAtprotoClient, type Session } from "atproto-client";
 
 const client = createAtprotoClient({
   url: "https://pds.example",

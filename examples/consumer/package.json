@@ -6,6 +6,6 @@
     "start": "node index.mjs"
   },
   "dependencies": {
-    "@loftet/atproto-client": "file:../../artifacts/loftet-atproto-client-0.1.0.tgz"
+    "atproto-client": "file:../../artifacts/atproto-client-0.1.0.tgz"
   }
 }
